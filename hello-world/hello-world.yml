@@ -11,4 +11,4 @@ jobs:
             source: {repository: alpine}
           run:
             path: echo
-            args: ["Hello, world!", ((user))]
+            args: ["Hello, world!", ((user)), "Welcome to ", ((environment))]
